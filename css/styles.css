@@ -6,13 +6,13 @@
 }
 
 table,td{
-	border: 4px solid black;
+	border: 3px solid black;
 }
 
 .descrizione{
 	text-align: left;
 	padding-left: 5%;
-	font-size: 1vw;
+	font-size: 2vw;
 }
 
 .immagine{
