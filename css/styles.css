@@ -1,12 +1,3 @@
-h1{
-	text-align: center;
-}
-
-p{
-	text-align: center;
-	font-size: large;
-}
-
 .home{
 	display: block;
 	margin-left: auto;
@@ -14,7 +5,17 @@ p{
 	width: 20%;
 }
 
-.principale{
-	height: fit-content;
-	background-color: #c75453;
+table,td{
+	border: 4px solid black;
+}
+
+.descrizione{
+	text-align: left;
+	padding-left: 5%;
+	font-size: large;
+}
+
+.immagine{
+	width: 100%;
+	vertical-align: middle;
 }
