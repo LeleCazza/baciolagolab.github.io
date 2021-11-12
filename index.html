@@ -3,37 +3,50 @@
 
 <head>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>BACIOLAGOLAB</title>
 </head>
 
 <body>
 	<img class="home" src="/immagini/home.png">
-	
 	<div class="principale">
 		<p style="text-align: center; font-size: 2vw;">Benvenuti da BACIOLAGOLAB</p>
 	</div>
 	
-	<div>
-		<table>
-			<tr>
-				<td style="width: 50%">
-					<img class="immagine" src="/immagini/noci.jpg">
-				</td>
-				<td class="descrizione">
-					descrizione: questo &egrave un sacchetto di bellissime noci
-				</td>
-			</tr>
-			<tr>
-				<td style="width: 50%">
-					<img class="immagine" src="/immagini/ciliegie.jpg">
-				</td>
-				<td class="descrizione">
-					descrizione: questo &egrave un sacchetto di bellissime ciliegie
-				</td>
-			</tr>
-		</table>	
+<div class="w3-row-padding">
+	<div class="w3-col s6">  
+		<div class="w3-container" style="width:100%">
+			<div class="w3-card-4">
+				<img src="/immagini/noci.jpg" alt="Noci" style="width:100%;cursor:zoom-in"
+				onclick="document.getElementById('modal1').style.display='block'">
+	  			<div id="modal1" class="w3-modal" onclick="this.style.display='none'">
+	  				<div class="w3-modal-content w3-animate-zoom">
+	      				<img src="/immagini/noci.jpg" style="width:100%">
+	      			</div>
+	  			</div>
+				<div class="w3-container w3-center">
+					<p>Questo &egrave un sacchetto di bellissime noci</p>
+				</div>
+			</div>
+		</div>
 	</div>
+	<div class="w3-col s6">
+		<div class="w3-container" style="width:100%">
+			<div class="w3-card-4">
+			<img src="/immagini/ciliegie.jpg" alt="Noci" style="width:100%;cursor:zoom-in"
+			onclick="document.getElementById('modal2').style.display='block'">
+  			<div id="modal2" class="w3-modal" onclick="this.style.display='none'">
+  				<div class="w3-modal-content w3-animate-zoom">
+      				<img src="/immagini/ciliegie.jpg" style="width:100%">
+      			</div>
+  			</div>
+			<div class="w3-container w3-center">
+				<p>Questo &egrave un sacchetto di bellissime ciliegie</p>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
-
 </html>
